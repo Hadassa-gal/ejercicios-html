@@ -1,0 +1,57 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-image: url(/Ejercicio-de-posicionamiento-Menu-Basico/image/fondo.jpg);
+    background-size: 250px;
+    margin: 0;
+    padding: 15px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    display: block;
+    background-color: #000000;
+    margin: -15px;
+    padding: 15px;
+    display: block;
+    box-shadow: 0px 0.2px 16px #050505;
+    a{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin: 5%;
+        padding: 5px;
+        border-radius: 10px;
+        color: rgb(141, 141, 141);
+        text-decoration: none;
+        text-align: center;
+        background-color: #fafafa57;
+    }
+}
+.princ{
+    margin-top: 9%;
+    padding: 5px;
+    position: relative;
+    justify-self: center;
+    .btn{
+        display: inline-block;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: #292929;
+        background-color: #865c5c;
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 5px;
+    }
+}
+nav:hover{
+    display: block;
+    transition: ease-in-out 0.5s;
+    background-color: #000000;
+    box-shadow: 0px 6px 16px #292929;
+}
+
+a:hover{
+    color: #000000;
+    background-color: #865c5c;
+    transition: ease-in-out 0.5s;
+    box-shadow: 0px 3px 16px #865c5c;
+}
