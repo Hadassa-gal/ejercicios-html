@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Pacifico&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: outfit, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(/ejercicio-posicionamiento/image/serjan-midili-hJb7hOl7AEs-unsplash.jpg);
+    background-size: 100%;
+}
+.fondo{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.fondo:hover{
+    height: 150px; overflow: hidden;
+    height: 100%; width: 100%;
+    stroke: none; fill: #08f;
+}
+.hero{
+    margin: 10%;
+    justify-content: center;
+}
+.container-text{
+    text-align: center;
+    justify-content: center;
+}
+.hero_title{
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 5px 5px #A62103;
+}
+.hero_copy{
+    color: #fff;
+    text-align: center;
+}
+.hero_cta{
+    margin-top: 15px;
+    color: #A62103;
+    display: inline-block;
+    background-color: #F2A391;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.hero_cta:hover{
+    color: #F28B30;
+    background-color: #060B0D;
+    box-shadow: 0 5px 5px #A62103;
+    transition: ease-in-out 1s;
+}
