@@ -1,0 +1,25 @@
+*{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: black;
+}
+.container{
+    background-color: grey;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    .custom-list{
+        font-size: larger;
+        margin-left: -45px;
+        li{
+            background-color: chocolate;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 10px;
+            list-style: none;
+            justify-self: center;
+        }
+    }
+}
